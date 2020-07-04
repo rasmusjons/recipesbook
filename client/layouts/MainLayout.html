@@ -1,0 +1,12 @@
+<!-- FÖR INLOGGADE ANVÄNDARE -->
+<template name="MainLayout">
+    {{> Header}}
+    {{> SideNav}}
+    <main class="main-layout">
+
+        <!-- Den här accepterar en template som argument. Så en template i en template. -->
+        {{> Template.dynamic template=main}}
+    </main>
+</template>
+
+

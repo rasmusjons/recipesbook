@@ -1,0 +1,9 @@
+<template name="NewRecipe">
+
+    <div class="new-recipe-container">
+            <!-- part of the autoform package -->
+        <i class="fa fa-close"></i>
+            {{> quickForm collection = "Recipes" id="insertRecipeForm" type="insert" class="new-recipe-form"}}
+    </div>
+
+</template>
